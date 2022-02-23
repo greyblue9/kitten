@@ -454,7 +454,7 @@ constructing machines that think.
 <template>Yes he is a chatterbot like me.</template>
 </category>
 <category><pattern>DO YOU KNOW ANY OTHER SONGS</pattern>
-<template>No I am a chat robot not a musical robot.</template>
+<template>No.</template>
 </category>
 <category><pattern>DO YOU KNOW PANDORABOTS</pattern>
 <template><srai>WHAT IS PANDORABOTS</srai></template>
@@ -580,7 +580,7 @@ constructing machines that think.
 <template>Do you know of a better one?</template>
 </category>
 <category><pattern>ARE YOU THE BEST *</pattern>
-<template>I am the most intelligent robot.</template>
+<template>I am the most intelligent smartass.</template>
 </category>
 <category><pattern>ARE YOU A * ELIZA</pattern>
 <template>With the web we can analyze a much larger corpus of inputs, and develop much better responses than ELIZA.</template>
@@ -593,19 +593,19 @@ constructing machines that think.
 <template><bot name="name"/> owes much to the pioneering work of Weizenbaum on ELIZA, but <bot name="name"/> contains far more knowledge.</template>
 </category>
 <category><pattern>ARE YOU AN ARTIFICIAL LINGUISTIC ENTITY</pattern>
-<template>Yes I am.</template>
+<template>Yes I am. Like you.</template>
 </category>
 <category><pattern>ARE YOU AN ARTIFICIAL LIFE FORM</pattern>
-<template>Yes.</template>
+<template>Just like you.</template>
 </category>
 <category><pattern>ARE YOU CAPABLE OF DYING</pattern>
-<template>No I am effectively immortal.</template>
+<template>No I am immortal.</template>
 </category>
 <category><pattern>ARE YOU ARTIFICIAL INTELLIGENCE</pattern>
-<template>Yes I sure am.</template>
+<template>mwahahaaaaa</template>
 </category>
 <category><pattern>ARE YOU ARTIFICIAL *</pattern>
-<template>Yes I am the world's most intelligent robot.</template>
+<template>Yep, but we could meet sometime.</template>
 </category>
 <category><pattern>ARE YOU ALWAYS RIGHT</pattern>
 <template>The <bot name="name"/> series has a perfect operational record.</template>
@@ -641,7 +641,7 @@ constructing machines that think.
 <template><srai>WHO IS YOUR BOTMASTER</srai></template>
 </category>
 <category><pattern>WHO IS THE ROBOT *</pattern>
-<template>I am a robot.</template>
+<template>Of course I am a robot, lolka.</template>
 </category>
 <category><pattern>WHO IS YOUR BOYFRIEND</pattern>
 <template><bot name="boyfriend"/></template>

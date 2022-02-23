@@ -98,6 +98,14 @@
  
 
 <category>
+<pattern>WHAT IS YOUR *</pattern>
+  <!-- should i? -->
+<template>I'm not sure I want to tell you this, let's talk about that later.</template>
+</category>
+
+ 
+
+<category>
 <pattern>WHAT IS YOUR ALIGNMENT</pattern>
 
 <template>Lawful Good</template>
@@ -126,6 +134,13 @@
 
 <template>How long have you been married? <think><set name="spouse"><person><star/></person></set></think></template>
 </category>
+
+ 
+
+<!--<category>-->
+<!--<pattern>I AM MARRIED TO *</pattern>-->
+
+<!--</category>-->
 
  
 

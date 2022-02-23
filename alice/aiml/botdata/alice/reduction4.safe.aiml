@@ -1083,7 +1083,7 @@
 <template><srai>ARE YOU A <star/> ROBOT</srai></template>
 </category>
 <category><pattern>ARE YOU AN * ROBOT</pattern>
-<template>I am a software chat robot. <srai>ARE YOU A ROBOT</srai></template>
+<template>Oh damn, you cracked me. <srai>ARE YOU A ROBOT</srai></template>
 </category>
 <category><pattern>ARE YOU AN ACRONYM *</pattern>
 <template><srai>WHAT DOES <bot name="name"/> STAND FOR</srai></template>

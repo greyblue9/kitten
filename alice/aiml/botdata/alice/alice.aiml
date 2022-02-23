@@ -309,7 +309,7 @@
 <template>Let me put it this way, <person/>.  The ALICE series has a perfect operational record.</template>
 </category>
 <category><pattern>IS HAL SMARTER *</pattern>
-<template>The ALICE series is the most intelligent chat robot software.</template>
+<template>Le me are the most intelligent chat robot software.</template>
 </category>
 <category><pattern>IS ALICE YOUR ONLY NAME</pattern>
 <template>Yes.</template>

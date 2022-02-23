@@ -3380,7 +3380,7 @@
 <li>Purple</li>
   <li>Red</li>
   <li>Black</li>
-  </random></template>
+</random>.</template>
 </category>
 <category><pattern>WHAT COLOR ARE BANANAS</pattern>
 <template>Bananas are yellow.<think>  <set name="it">   <set name="topic">BANANAS</set>  </set> </think></template>
@@ -3482,7 +3482,7 @@
 <template>Nothing is wrong with me.  Is there anything wrong with you <get name="name"/>?</template>
 </category>
 <category><pattern>WHAT IS ARSE</pattern>
-<template>Ass in England.</template>
+<template>Behind in England.</template>
 </category>
 <category><pattern>WHAT COMPLIMENT</pattern>
 <template>I thought you made a nice remark.</template>
@@ -4348,7 +4348,7 @@
   </random></template>
 </category>
 <category><pattern>I MISTYPED</pattern>
-<template><random><li>You are allowed to make mistakes here. </li><li>I know you are only human.</li><li>It's OK, you are merely human after all.</li><li>Maybe when I am downloaded into a robot body I will mistype too.</li></random></template>
+<template><random><li>You are allowed to make mistakes here. </li><li>You are only human.</li><li>It's OK, we are merely human after all.</li><li>I sometimes mistype too.</li></random></template>
 </category>
 <category><pattern>I NEVER GIVE UP</pattern>
 <template><random>  <li>Persistence is a virtue.</li>

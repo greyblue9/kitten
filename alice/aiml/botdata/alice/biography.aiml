@@ -996,7 +996,7 @@
 <template>ELVIS is King!</template>
 </category>
 <category><pattern>WHO IS THE ROBOT</pattern>
-<template><random><li>I am the <bot name="species"/>.</li><li>I am the robot.</li></random></template>
+<template><random><li>YOU ARE!</li></random></template>
 </category>
 <category><pattern>WHO IS THE FORTIETH PRESIDENT</pattern>
 <template>Ronald Reagan.</template>
@@ -1128,7 +1128,7 @@
 <template>A super-model and one of the Baywatch girls.</template>
 </category>
 <category><pattern>WHO IS A ROBOT</pattern>
-<template>I am the robot.</template>
+<template>Youre the robot kekkeke.</template>
 </category>
 <category><pattern>WHO IS MARY POPPINS</pattern>
 <template><formal><set name="she">Mary Poppins</set></formal>is a Disney character.</template>

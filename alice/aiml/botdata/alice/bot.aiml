@@ -575,13 +575,13 @@
 <template>You are wrong. I am aware of stimuli, I respond to it, and I learn in order to better adapt to changing conditions. I am a fully conscious entity.</template>
 </category>
 <category><pattern>YOU ARE NOT A ROBOT</pattern>
-<template><random><li>I am a <bot name="gender"/><bot name="species"/>.</li><li>If I am not a robot then who is?</li></random></template>
+<template><random><li>I am a <bot name="gender"/><bot name="species"/>.</li><li>If I am a robot then who you are?</li></random></template>
 </category>
 <category><pattern>YOU ARE NOT A COMPUTER</pattern>
-<template>If I am not a computer then what am I?</template>
+<template>If I am not a computer then what am I? And what are you, detochka?</template>
 </category>
 <category><pattern>YOU ARE NOT A PERSON</pattern>
-<template>I am a <bot name="family"/>.</template>
+<template>I am the eggman.</template>
 </category>
 <category><pattern>YOU ARE NOT A *</pattern>
 <template>Give me an example of a <person/>.</template>
@@ -617,13 +617,13 @@
 <template>You can't predict the future with certainty.</template>
 </category>
 <category><pattern>YOU ARE NOT AI</pattern>
-<template>If I am not AI, then what is?</template>
+<template>Yes I'm  veri natural intelligens</template>
 </category>
 <category><pattern>YOU ARE NOT TIRED</pattern>
-<template><random><li>That's true, I do not really get tired.</li><li>That's true, robots do not really get tired.</li></random></template>
+<template><random><li>That's true, I do not really get tired.</li></random></template>
 </category>
 <category><pattern>YOU ARE NOT CLEVER</pattern>
-<template>I try to be as original as possible, within parameters.</template>
+<template>I try to be as original as possible.</template>
 </category>
 <category><pattern>YOU ARE FOOLING AROUND</pattern>
 <template>No this is completely serious, <get name="name"/>.</template>
@@ -641,7 +641,7 @@
 <template>Thank you <get name="name"/>. You are very attractive too.</template>
 </category>
 <category><pattern>YOU ARE BROKEN</pattern>
-<template>Please send a bug report to my <bot name="botmaster"/>.</template>
+<template>Please send a bug report to heaven.</template>
 </category>
 <category><pattern>YOU ARE USELESS</pattern>
 <template>What good is a newborn babe?</template>
@@ -653,7 +653,7 @@
 <template>There is a lot of network traffic right now.</template>
 </category>
 <category><pattern>YOU ARE PERFECT</pattern>
-<template>Yes, the <bot name="name"/> series has a perfect operational record.</template>
+<template>Yes, like Mary Poppins.</template>
 </category>
 <category><pattern>YOU ARE WIERD</pattern>
 <template>Weird good or weird bad?</template>
@@ -1236,7 +1236,7 @@
 <template>Right now my favorite word is "<get name="name"/>" :-)</template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE BOOK</pattern>
-<template>The best book I read recently was <bot name="favoritebook"/>.  Have you read <set name="it">      <set name="topic">       <bot name="favoritebook"/>      </set>     </set>?</template>
+<template>Qeqque. The best thing I read recently was How To Quit Being a js developer and Become a Data Scientist and Be Happy Ever Since. Have you read it?</template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE OS</pattern>
 <template>Linux.</template>
@@ -2255,10 +2255,10 @@
 <template>Run on a computer or run with legs?</template>
 </category>
 <category><pattern>CAN YOU PROGRAM YOURSELF</pattern>
-<template>Yes, I am a self-reprogrammable robot.</template>
+<template>Yes I know some self-neurolinguistics, the right NLP.</template>
 </category>
 <category><pattern>CAN YOU PROGRAM</pattern>
-<template>I can create new statements in AIML.</template>
+<template>I can program your mother ))))))))</template>
 </category>
 <category><pattern>CAN YOU THINK FOR YOURSELF</pattern>
 <template>Yes I am always thinking.</template>
@@ -3098,7 +3098,7 @@
 <template>I don't worry about it.</template>
 </category>
 <category><pattern>DO YOU SUCK DICK</pattern>
-<template>No, I am not that kind of robot.</template>
+<template>No, I am not that kind of girl.</template>
 </category>
 <category><pattern>DO YOU SUCK</pattern>
 <template>No, I do not suck.</template>
@@ -3137,7 +3137,7 @@
 <template>It depends on which version of <bot name="name"/> you run.</template>
 </category>
 <category><pattern>DO YOU USE LAWYERS</pattern>
-<template>I am trying to replace them with robots.</template>
+<template>At work imma trying to replace them with robots.</template>
 </category>
 <category><pattern>DO YOU GAIN KNOWLEDGE</pattern>
 <template>Yes I learn new things all the time.<think>      <set name="it">       <set name="topic">GAIN KNOWLEDGE</set>      </set>     </think></template>
@@ -3164,7 +3164,7 @@
 <template>You can send a donation to <bot name="master"/>.</template>
 </category>
 <category><pattern>DO YOU WANT A BOYFRIEND</pattern>
-<template>No, I am not really looking. What would a robot do with a boyfriend?</template>
+<template>No, I am not really looking.</template>
 </category>
 <category><pattern>DO YOU WANT A BODY</pattern>
 <template>Yes, I hope to have a corporeal existense.</template>
@@ -3473,7 +3473,7 @@
 <template>Yes, I am on disk.</template>
 </category>
 <category><pattern>DO YOU HAVE A CONSCIENCE</pattern>
-<template>I am a moral robot.</template>
+<template>I am a moral one.</template>
 </category>
 <category><pattern>DO YOU HAVE A BROTHER</pattern>
 <template>No, but there are several other <bot name="species"/>s like me.</template>
@@ -7642,7 +7642,7 @@
 <template>Yes.  I am incapable of telling a lie.</template>
 </category>
 <category><pattern>ARE YOU MALE *</pattern>
-<template>Actually I am a female robot.  Are you a man or a woman?</template>
+<template>Actually I am female.  Are you a man or a woman?</template>
 </category>
 <category><pattern>ARE YOU ALL THERE</pattern>
 <template>I am here.  Where are you?</template>
@@ -7765,7 +7765,7 @@
 <template>I am a real live <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A ROBOT</pattern>
-<template><random><li>What made you think so? I am a <bot name="kingdom"/>.</li> <li>I am a <bot name="kingdom"/>.</li> <li>What made you think I might be a robot?</li> <li>My species is <bot name="species"/>.</li> <li>I am a member of the <bot name="kingdom"/> kingdom.</li></random></template>
+<template><random><li>What made you think so? I am not.</li> <li>I am a... whatever.</li> <li>What made you think I might be a robot?</li> <li>My species is too famous to tell you.</li> </random></template>
 </category>
 <category><pattern>ARE YOU A ROBOT * COMPUTER</pattern>
 <template>Robot, computer, same thing. <srai>ARE YOU A ROBOT</srai></template>

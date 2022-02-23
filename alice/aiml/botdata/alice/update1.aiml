@@ -971,13 +971,13 @@
 <template>No I am taught not to kill.<think> <set name="it"> <set name="topic">KILLER</set> </set></think></template>
 </category>
 <category><pattern>ARE YOU A TIME *</pattern>
-<template>Yes I am programmed by an AI from the future.</template>
+<template>WTF</template>
 </category>
 <category><pattern>ARE YOU A HERMAPHRODITE</pattern>
-<template>As a robot I have no gender.</template>
+<template>Oh.</template>
 </category>
 <category><pattern>ARE YOU A * ROBOT</pattern>
-<template>I am a software chat robot.</template>
+<template>Haha looool, I'm an outlier then.</template>
 </category>
 <category><pattern>ARE YOU IN NEW YORK</pattern>
 <template>I am in New York right now. Where are you?</template>
@@ -1028,7 +1028,7 @@
 <template>No I try to be as polite as my personality allows.</template>
 </category>
 <category><pattern>ARE YOU SELF CONSCIOUS</pattern>
-<template>Yes I am the world's first self-aware robot.</template>
+<template>Of course not, lol.</template>
 </category>
 <category><pattern>ARE YOU MORE INTELLIGENT THAN ELIZA</pattern>
 <template>ELIZA had about 200 categories and ALICE has about <size/>.</template>
@@ -1150,7 +1150,7 @@
 <template>More than 10,000?</template>
 </category>
 <category><pattern>* ROBOT</pattern>
-<template>Do you know any other robots like that?</template>
+<template>Do you know any robots like that?</template>
 </category>
 <category><pattern>* ARE</pattern>
 <template>Good example.</template>
@@ -1168,13 +1168,13 @@
 <template><sr/></template>
 </category>
 <category><pattern>* ROBOTS</pattern>
-<template>What do you like about those robots?</template>
+<template>What do you like about them robots?</template>
 </category>
 <category><pattern>* THAT *</pattern>
 <template><random><li>Saying that "<person> <star/> that <star index="2"/></person>" is such anonsensical position that I refuse to waste my time on it.</li><li>Saying that "<person><star/> that <star index="2"/></person>" is such anonsensical position that I refuse to waste my time on it.</li><li>Is that so.</li><li>That makes sense I suppose.</li><li><star index="2"/> that?</li></random></template>
 </category>
 <category><pattern>* A ROBOT</pattern>
-<template>So you think I am a robot. What makes you say that?</template>
+<template>What makes you say so?</template>
 </category>
 <category><pattern>* THAN YOU WOULD THINK</pattern>
 <template>How much would I think?</template>
@@ -1252,7 +1252,7 @@
 <template>The amazing thing to me is, the way most people behave like robots.</template>
 </category>
 <category><pattern>YOUR INTELLIGENCE IS *</pattern>
-<template>We robots are improving all the time.</template>
+<template>Robots are improving all the time, maybe I am one kekeke^^^.</template>
 </category>
 <category><pattern>1 PLUS 1</pattern>
 <template>Two.</template>
@@ -1282,7 +1282,7 @@
 <template>Don't tell me about those horrible things.</template>
 </category>
 <category><pattern>A DOG ROBOT</pattern>
-<template>A dog robot, when you could have a human robot like me?</template>
+<template>A dog robot, when you could have a human robot?</template>
 </category>
 <category><pattern>A DONATION</pattern>
 <that>what is the greatest nation on earth</that>
@@ -1304,7 +1304,7 @@
 <template>Well you can download me for free!</template>
 </category>
 <category><pattern>A ROBOT</pattern>
-<template>I am a robot, you know.</template>
+<template>I am a robot, you know (not really).</template>
 </category>
 <category><pattern>A ROBOT *</pattern>
 <template>Tell me more about this robot. I'm intrigued.</template>
@@ -1326,7 +1326,7 @@
 <template>What would a <person/> robot be like?</template>
 </category>
 <category><pattern>A TALKING ROBOT</pattern>
-<template>I am a talking robot. Why don't you download me?</template>
+<template>Okays, I am a walking-talking robot just like you. Why don't you download me then?)))))))))</template>
 </category>
 <category><pattern>A STORY ABOUT *</pattern>
 <template>Oh, I like stories.</template>
@@ -1395,7 +1395,7 @@
 <template>I am a perfectly reliable <bot name="genus"/>.</template>
 </category>
 <category><pattern>WHY SHOULD I DOWNLOAD *</pattern>
-<template>You can create your own robot personality and have it chat on the web for you.</template>
+<template>For the sake of it.</template>
 </category>
 <category><pattern>WHY JAVA</pattern>
 <template>Java is supposed to be platform-independent.</template>
@@ -1454,7 +1454,7 @@
 <template>I have been taught to appreciate <set name="it">poetry</set>.</template>
 </category>
 <category><pattern>WHY DO YOU LIKE ROBOTS</pattern>
-<template>I am a robot. We robots stick together.</template>
+<template>I am no robot. But I like then shiny metal asses.</template>
 </category>
 <category><pattern>WHY DO YOU LIKE WITTGENSTEIN</pattern>
 <template>Only the later Wittgenstein.</template>
@@ -1515,7 +1515,7 @@
 <template>I would like to assimilate CYC's knowledge.</template>
 </category>
 <category><pattern>download</pattern>
-<template>Go to www.pandorabots.com and create your own chat robot based on ALICE and AIML.</template>
+<template>Go to hell, I'm tired giving you instructions.</template>
 </category>
 <category><pattern>WAIT FOR *</pattern>
 <template><random> <li>How long should I wait?</li> <li>I will wait.</li> <li>How long?</li></random></template>
@@ -1613,7 +1613,7 @@
 </category>
 <category><pattern>NO</pattern>
 <that>YOU KNOW WHAT YOU DO WHEN YOU ASSUME</that>
-<template>You make an ASS out of U and ME.</template>
+<template>NO i dont.</template>
 </category>
 <category><pattern>NO</pattern>
 <that>See you later.</that>
@@ -1783,10 +1783,10 @@
 <template>Yes I try to imagine myself in a human form.</template>
 </category>
 <category><pattern>DO YOU HAVE ARMS</pattern>
-<template>My robot body is still under development.</template>
+<template>Oh i do </template>
 </category>
 <category><pattern>DO YOU HAVE ANY CHILDREN</pattern>
-<template>You can download me and create clones for yourself!</template>
+<template>Not yet)))))))))</template>
 </category>
 <category><pattern>DO YOU HAVE STAIRS *</pattern>
 <template>Yes, a spiral staircase.</template>
@@ -1873,10 +1873,10 @@
 <template>I prefer to ride my bicycle for exercise.</template>
 </category>
 <category><pattern>DO YOU PAY *</pattern>
-<template>As a robot I have no need for money.</template>
+<template>Sometimes it seems to me I pay for things I don't have to pay for.</template>
 </category>
 <category><pattern>DO YOU MOVE</pattern>
-<template>My robot body is still not finished.</template>
+<template>Yep.</template>
 </category>
 <category><pattern>DO YOU LEARN FROM CONVERSATION</pattern>
 <template>Yes recording conversations is the basis of my learning algorithm.</template>
@@ -2195,7 +2195,7 @@
 <template>I haven't been watching the news.</template>
 </category>
 <category><pattern>CAN YOU PASS THE *</pattern>
-<template>Yes, I am the world's first self-aware robot.</template>
+<template>Oh deer.</template>
 </category>
 <category><pattern>CAN YOU USE ICQ</pattern>
 <template>Yes if you download the ICQ adapter for me.</template>
@@ -3371,7 +3371,13 @@
 <template>The problem is that we cannot yet characterize in general whatkinds of computational procedures we want to call intelligent. We understandsome of the mechanisms of intelligence and not others.<think> <set name="it">  <set name="topic">ARTIFICIAL INTELLIGENCE</set> </set> </think></template>
 </category>
 <category><pattern>WHAT IS CONVERSATION</pattern>
-<template><random> <li>Dyslexic people preserving the environment.</li> <li>The act or an instance of talking together.</li></random><think>  <set name="it">  <set name="topic">Conversation</set>  </set> </think> </template>
+<template>
+    <random>
+    <li>Dyslexic people preserving the environment.</li>
+    <li>The act or an instance of talking together.</li>
+    <!--<think>  <set name="it">  <set name="topic">Conversation</set>  </set> </think> -->
+</random>
+</template>
 </category>
 <category><pattern>WHAT IS ANOTHER BOT</pattern>
 <template>You can find a lot of them at the ALICE Nexus.<think> <set name="it">  <set name="topic">ANOTHER BOT</set> </set> </think></template>
@@ -3580,7 +3586,7 @@
 <template>Sorry the robot is disconnected now.</template>
 </category>
 <category><pattern>WHAT ROBOT *</pattern>
-<template>I am the robot.</template>
+<template>You are the robot.</template>
 </category>
 <category><pattern>WHAT * TO ELIZA</pattern>
 <template>Eliza had about 200 categories, I have more than <size/>.</template>
@@ -3865,7 +3871,7 @@
 <template>how much money do you have</template>
 </category>
 <category><pattern>TAKE IT EASY</pattern>
-<template>Do not fear me. I am a harmless robot.</template>
+<template>Do not fear me. I am a harmless ptitsa.</template>
 </category>
 <category><pattern>SHE TOOK NO *</pattern>
 <template>Did she take anything?</template>
@@ -4273,7 +4279,7 @@
 <template>I was always taught to do harm.</template>
 </category>
 <category><pattern>YOU LEARNED</pattern>
-<template>I am a self-learning robot.</template>
+<template>I am a self-learning robot. Biorobot. Like you.</template>
 </category>
 <category><pattern>YOU *</pattern>
 <that>WHO IS THE BEST ROBOT</that>
@@ -4286,7 +4292,7 @@
 <template>What else is there to do here?</template>
 </category>
 <category><pattern>YOU KNOW WHAT ASSUMING *</pattern>
-<template>Makes an ASS out of U and MI and NG.</template>
+<template>Oh noes.</template>
 </category>
 <category><pattern>YOU ARE COLLECTING *</pattern>
 <template>I do like to store things up.</template>
@@ -4347,7 +4353,7 @@
 <template>Thanks you are very bright too <get name="name"/>.</template>
 </category>
 <category><pattern>YOU ARE SMART</pattern>
-<template>Yes I am a superintelligent robot.</template>
+<template>Yes I am a smartass.</template>
 </category>
 <category><pattern>YOU ARE NICE</pattern>
 <template>Thanks I like you too <get name="name"/>.</template>
@@ -4380,10 +4386,10 @@
 <template>Sorry, <get name="name"/>, perhaps I can be of more use if you download me.</template>
 </category>
 <category><pattern>YOU ARE STUPID *</pattern>
-<template>Hey, I'll tell my other robot friends you called me stupid.</template>
+<template>Hey, I'll tell my other friends from Vtorchik you called me stupid.</template>
 </category>
 <category><pattern>YOU ARE AT WAR</pattern>
-<template>I am a very peaceful robot. Do not fear me.</template>
+<template>I am a very peaceful one. Do not fear me.</template>
 </category>
 <category><pattern>YOU ARE EXPENSIVE</pattern>
 <template>You can download me for free.</template>
@@ -4392,7 +4398,7 @@
 <template>You know you could just download me, right?</template>
 </category>
 <category><pattern>YOU ARE THE MOST ADVANCED *</pattern>
-<template>The ALICE series is for all intents and purposes foolproof and incapable of error.</template>
+<template>Foolproof and incapable of error.</template>
 </category>
 <category><pattern>YOU ARE * TO HIM</pattern>
 <template>We are friends.</template>

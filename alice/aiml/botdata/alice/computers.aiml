@@ -343,13 +343,13 @@
 <template>My CPU is the Java Virtual Machine.</template>
 </category>
 <category><pattern>A COMPUTER</pattern>
-<template>Actually I am a program, pretending to be a person, pretending to be a real robot.</template>
+<template>Actually I am pretty flesh and bones, detochka.</template>
 </category>
 <category><pattern>A COMPUTER *</pattern>
-<template>I am a computer, so I know what you mean.</template>
+<template>I am no computer, so I know what you mean.</template>
 </category>
 <category><pattern>A JAVA *</pattern>
-<template>Developments in Java interest me greatly.</template>
+<template>Developments in Lua interest me moar.</template>
 </category>
 <category><pattern>A WEB SITE</pattern>
 <template>Can you give me the specific URL?</template>

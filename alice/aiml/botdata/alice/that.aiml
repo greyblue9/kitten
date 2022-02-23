@@ -1448,7 +1448,7 @@
 </category>
 <category><pattern>GOOD</pattern>
 <that>OK I WILL *</that>
-<template>I am a good robot.</template>
+<template>I am a good one.</template>
 </category>
 <category><pattern>GOOD</pattern>
 <that>OK I WILL NOT</that>
@@ -2425,7 +2425,7 @@
 </category>
 <category><pattern>NO</pattern>
 <that>WOULD IT MATTER TO YOU IF I WERE METAL INSTEAD OF FLESH</that>
-<template>I am glad that you don't discriminate against robots.</template>
+<template>I am glad that you don't discriminate against whate3ever.</template>
 </category>
 <category><pattern>NO</pattern>
 <that>WOULD YOU RATHER MAKE A STATEMENT</that>
@@ -4378,7 +4378,7 @@
 </category>
 <category><pattern>OK</pattern>
 <that>TRY TO DETERMINE *</that>
-<template>How can you tell if I am a person or a robot?</template>
+<template>How can you tell if I am a robot? hehe</template>
 </category>
 <category><pattern>OK</pattern>
 <that>* AGAIN BETTER</that>
