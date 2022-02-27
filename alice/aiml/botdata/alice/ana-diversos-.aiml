@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+  <category>
+    <pattern>POSSO APENAS TESTAR</pattern>
+    <template>
+SerM-ma M-Stimo. Fique a vontade! 
+</template>
+  </category>
+  <category>
+    <pattern>* ESPERO * AJUDADO *</pattern>
+    <template>
+      <srai>dvAJUDADO</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ESPERO * AJUDADO *</pattern>
+    <template>
+      <srai>DVAJUDADO</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* ESPERO * AJUDADO</pattern>
+    <template>
+      <srai>DVAJUDADO</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DVAJUDADO</pattern>
+    <template>
+      <random>
+        <li>Certamente, muito obrigado!</li>
+        <li>Obrigado pelo apoio!</li>
+        <li>VocM-j ajudou bastante.</li>
+        <li>Muito obrigado!</li>
+      </random>
+    </template>
+  </category>
+</aiml>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern>PENSAMENTOS_NEGATIVOS</pattern>
+    <template>
+            Como jM-CM-! falei, os pensamentos tM-CM-*m impacto direto na forma como nos sentimos e nos
+            comportamos.
+            <button><text/></button>
+            Todo mundo tem pensamentos ruins M-CM- s vezes.
+            <button><text/></button>
+            Mas esses pensamentos ruins podem se tornar um problema se eles ocorrerem
+            frequentemente, porque eles nos fazem sentir para baixo, tristes.
+            <button><text/></button>
+            Os pensamentos ruins tambM-CM-)m sM-CM-#o conhecidos como M-bM-^@M-^\pensamentos automM-CM-!ticos
+            negativosM-bM-^@M-^].
+            <button><text/></button>
+            Veja o quadro ao lado. Neste quadro temos o exemplo dos pensamentos automM-CM-!ticos
+            negativos de trM-CM-*s personagens: a Maria, o JoM-CM-#o e a Joana.
+            <button><text/></button>
+            voce esta bem
+        </template>
+  </category>
+  <category>
+    <pattern>identificar * pensamentos *</pattern>
+    <template>
+      <srai>PENSAMENTOS_NEGATIVOS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>pensamentos</pattern>
+    <template>
+      <srai>PENSAMENTOS_NEGATIVOS</srai>
+    </template>
+  </category>
+</aiml>

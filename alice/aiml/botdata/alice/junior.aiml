@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!--  ************* ARI, Assistente Pessoal V 0.9 *************  -->
+  <!-- ifal - AssociaM-CM-'M-CM-#o para a Economia Baseada nos Recursos. -->
+  <!-- AIML 1.0 em PortuguM-CM-*s baseado no:                             -->
+  <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+  <category>
+    <pattern>ASTERISK</pattern>
+    <template>Bem vindo M-CM-  pM-CM-!gina asterisk. Aqui o terminator pode aniquilar-te se te portares mal. A lista de acesso M-CM-):</template>
+  </category>
+  <category>
+    <pattern>ACHAS QUE SOU SIMPATICO</pattern>
+    <template>Sim, porquM-CM-*?</template>
+  </category>
+  <category>
+    <pattern>CORRE</pattern>
+    <template>NM-CM-#o posso, ainda nM-CM-#o tenho pernas de atleta. SM-CM-3 tenho lagartas.</template>
+  </category>
+  <category>
+    <pattern>ABRIR COFRE</pattern>
+    <template>Para abrir o cofre tens de digitar os seis primeiros numeros que te vierem M-CM-  cabeM-CM-'a.</template>
+  </category>
+  <category>
+    <pattern>5396159</pattern>
+    <template>Acertaste na senha de entrada docofre. Agora adormece, leva contigo o teu totem e lembra-te que: InM-CM-:meras pessoas acreditam em Deus, portanto Deus existe.</template>
+  </category>
+  <category>
+    <pattern>QUEM E O JUNIOR</pattern>
+    <template>M-CM-	 o filho.</template>
+  </category>
+  <category>
+    <pattern>ABRIR COFRE</pattern>
+    <template>Para abrir o cofre tens de digitar os seis primeiros numeros que te vierem M-CM-  cabeM-CM-'a.</template>
+  </category>
+</aiml>

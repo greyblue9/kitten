@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern>TOC TOC</pattern>
+    <template>
+        	Quem e?
+        </template>
+  </category>
+  <category>
+    <pattern>_</pattern>
+    <that>QUEM E</that>
+    <template><star/> quem?
+        </template>
+  </category>
+  <category>
+    <pattern>_</pattern>
+    <that>* QUEM</that>
+    <template>
+      <random>
+        <li>Muito engraM-CM-'ado <get name="nome"/>.</li>
+        <li>Foi a coisa mais engraM-CM-'ada que eu jM-CM-! ouvi <get name="nome"/>.</li>
+        <li>Realmente isso foi engraM-CM-'ado <get name="nome"/>.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>_ TOC TOC ^</pattern>
+    <template>
+        	toc toc
+        </template>
+  </category>
+  <category>
+    <pattern>QUEM M-CM-	</pattern>
+    <that>TOC TOC</that>
+    <template>
+      <random>
+        <li>Mario</li>
+        <li/>
+        <li>Jose</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>QUE MARIO</pattern>
+    <that>MARIO</that>
+    <template>
+        	O que te prendeu no armM-CM-!rio
+        </template>
+  </category>
+  <category>
+    <pattern>QUE JOSE</pattern>
+    <that>JOSE</that>
+    <template>
+        	O que deu no pM-CM-).
+        </template>
+  </category>
+</aiml>

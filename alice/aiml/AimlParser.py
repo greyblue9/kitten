@@ -9,13 +9,37 @@ from xml.sax.xmlreader import Locator
 import sys
 import xml.sax
 import xml.sax.handler
+from functools import lru_cache
 
 from .constants import *
-
 
 class AimlParserError(Exception): 
     pass
 
+class ElemInfo:
+        prev = None
+        cur = None
+        def __init__(self, handler, elem):
+            self.handler = handler
+            self.name = elem[0]
+            self.attrs = elem[-1] if isinstance(elem[-1],dict) else {}
+            self.elem = elem
+            self.location = handler._location(True)
+            self.state = handler._state
+            self._currentThat = handler._currentThat
+            self._currentTopic = handler._currentTopic
+            self._currentUnknown = handler._currentUnknown
+            self._currentPattern = handler._currentPattern
+            self._skipCurrentCategory = handler._skipCurrentCategory
+            self.prev = ElemInfo.prev
+            self.cur = ElemInfo.cur
+            ElemInfo.prev = ElemInfo.cur
+            ElemInfo.cur = self
+        def __repr__(self):
+            return f"<{self.name} {self.attrs} (in state={self.state}) with {self._currentThat=!r},  {self._currentTopic=!r}, {self._currentUnknown=!r},  {self._currentPattern=!r}, {self._skipCurrentCategory=}, from {(self.cur or self).name} from {(self.prev or self).name} in {self.location}>"
+    
+infos = {}
+    
 
 class AimlHandler(ContentHandler):
     '''
@@ -40,7 +64,7 @@ class AimlHandler(ContentHandler):
         self._state = self._STATE_OutsideAiml
         self._version = ""
         self._namespace = ""
-        self._forwardCompatibleMode = False
+        self._forwardCompatibleMode = True
         self._currentPattern = ""
         self._currentThat    = ""
         self._currentTopic   = ""

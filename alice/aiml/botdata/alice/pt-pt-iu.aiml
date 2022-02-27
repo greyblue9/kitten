@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!--  ************* ARI, Assistente Pessoal V 0.9 *************  -->
+  <!-- ifal - AssociaM-CM-'M-CM-#o para a Economia Baseada nos Recursos. -->
+  <!-- AIML 1.0 em PortuguM-CM-*s baseado no:                             -->
+  <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+  <category>
+    <pattern>TU *</pattern>
+    <template><random><li>Coscuvilhice..</li><li>Obrigado por me dizeres</li><li>Isso M-CM-) uma boa informaM-CM-'M-CM-#o</li><li>Obrigado pela informaM-CM-'M-CM-#o</li><li>Importas-te que comente com outras pessoas</li><li>Nunca me tinham dito isso</li></random>.  <think><srai>PUSH <person>YOU <star/></person></srai></think></template>
+  </category>
+  <category>
+    <pattern>EU *</pattern>
+    <template><random><li>PorquM-CM-*?</li><li>Cusquice</li><li>Interessante</li><li>M-CM-	 uma boa informaM-CM-'M-CM-#o</li><li>Obrigado pela informaM-CM-'M-CM-#o</li><li>Vou comentar isso</li><li>Nunca tinha ouvido isso</li></random>.  
+<think><srai>PUSH <person>YOU <star/></person></srai></think></template>
+  </category>
+</aiml>

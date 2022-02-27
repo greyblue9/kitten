@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<aiml>
+  <!-- para cada sequence flow -->
+  <!-- se sequenceflow souceref M-CM-) um startevent crie category -->
+  <category>
+    <!-- sequenceflow1 -->
+    <pattern>quero pizza</pattern>
+    <!-- sequenceflow1 sourceref -->
+    <!-- startevent1 id-->
+    <template>ola voce esta bem</template>
+    <!-- sequenceflow1 targetref -->
+    <!-- task1 id-->
+  </category>
+  <!-- sequenceflow2 -->
+  <!-- se sequenceflow2 targetref M-CM-) gateway1 ?
+                                repita para todos as tasks onde sourceref = gateway1
+                                pegue todos os id dos flows onde sourceref M-CM-) gateway e jogue no li
+                                -->
+  <!-- para cada sequence flow onde o targetref M-CM-) um gateway busque as opM-CM-'M-CM-5es -->
+  <category>
+    <!-- sequenceflow2 -->
+    <!-- sequenceflow2 targetref M-CM-) gateway ? -->
+    <pattern>*</pattern>
+    <!-- default -->
+    <that>ola voce esta bem</that>
+    <!-- sequenceflow2 sourceref -->
+    <!-- task1 id-->
+    <template>
+      <set name="resposta">
+        <star/>
+      </set>
+      <condition name="resposta">
+        <!-- sequenceflow2 targetref id -->
+        <li value="sim">
+          <srai>sim</srai>
+        </li>
+        <!-- sequenceflow3 id -->
+        <li value="nao">
+          <srai>nao</srai>
+        </li>
+        <!-- sequenceflow4 id -->
+      </condition>
+    </template>
+  </category>
+  <!-- para cada sequence flow onde sourceref M-CM-) um gateway crie uma categoria com that-->
+  <category>
+    <!-- sequenceflow3 -->
+    <pattern>sim</pattern>
+    <!-- sequenceflow3 id tem sourceref gateway1-->
+    <that index="2">ola voce esta bem</that>
+    <!-- verifique qual dos sequenceflow tem targetref para o gateway1 para este sequeceflow pegue o sourceref id e busque o id da task deste sourceref -->
+    <template>que chato</template>
+    <!-- sequenceflow3 targetref id -->
+    <!-- task3 -->
+  </category>
+  <category>
+    <!-- sequenceflow4 -->
+    <pattern>nao</pattern>
+    <!-- sequenceflow4 id -->
+    <that index="2">ola voce esta bem</that>
+    <template>que chato</template>
+    <!-- sequenceflow4 targetref id -->
+    <!-- task3 -->
+  </category>
+</aiml>

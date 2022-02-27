@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!--  ************* ARI, Assistente Pessoal V 0.9 *************  -->
+  <!-- ifal - AssociaM-CM-'M-CM-#o para a Economia Baseada nos Recursos. -->
+  <!-- AIML 1.0 em PortuguM-CM-*s baseado no:                             -->
+  <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+  <category>
+    <pattern>QUEM E O BILBO BOLSEIRO</pattern>
+    <template><set name="he">Bilbo</set>M-CM-) uma personagem Senhor do Tolkein dos anM-CM-)is.</template>
+  </category>
+  <category>
+    <pattern>QUEM ESCREVEU VINELAND</pattern>
+    <template>Thomas Pynchon.</template>
+  </category>
+  <category>
+    <pattern>QUEM SAO OS ILLUMINATI</pattern>
+    <template>
+      <srai>O QUE E ILLUMINATI</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>O QUE E ILLUMINATI</pattern>
+    <template>Uma organizaM-CM-'M-CM-#o secreta que acredita que por algo, pode estar no controle de todos os governos atravM-CM-)s de uma conspiraM-CM-'M-CM-#o mundial.</template>
+  </category>
+  <category>
+    <pattern>QUEM E GEOFFREY CHAUCER</pattern>
+    <template>
+      <random>
+        <li>Chaucer M-CM-) conhecido por seus contos de Canterbury.</li>
+        <li>autor de contos de Canturbury.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>O QUE E O ILLUMINATTI</pattern>
+    <template>Uma sociedade secreta que supostamente existiu por sM-CM-)culos.</template>
+  </category>
+  <category>
+    <pattern>O QUE E ILLIMINATUS</pattern>
+    <template>Suposta teoria da conspiraM-CM-'M-CM-#o mundial.<think><set name="it"><set name="topic">ILLIMINATUS</set></set></think></template>
+  </category>
+  <category>
+    <pattern>O QUE E VINELAND</pattern>
+    <template><set name="it">Vineland</set>M-CM-) um romance de Thomas Pynchon.</template>
+  </category>
+  <category>
+    <pattern>BE YOU OWN BOTMASTER</pattern>
+    <template>Sim, M-CM-) um excelente livro.</template>
+  </category>
+</aiml>

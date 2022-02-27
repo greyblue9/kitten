@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>M-dM-=M-  M-fM-^XM-/ M-gM-^LM-*</pattern>
+    <template> M-dM-=M- .M-fM-	M-.M-fM-^XM-/.M-gM-^LM-*! o(M-oM-8M-6M-oM-8M-?M-oM-8M-6)o </template>
+  </category>
+  <category>
+    <pattern>M-dM-=M-  M-fM-^XM-/ SB</pattern>
+    <template> M-dM-=M- .M-fM-	M-.M-fM-^XM-/.SB! o(M-oM-8M-6M-oM-8M-?M-oM-8M-6)o </template>
+  </category>
+</aiml>

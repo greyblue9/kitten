@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<aiml>
+  <category>
+    <pattern>QUERO * LIXO</pattern>
+    <template>NOSSA QUE LEGAL-
+            <srai>TASK0FY7FC0</srai>
+        </template>
+  </category>
+  <category>
+    <pattern>TASK0FY7FC0</pattern>
+    <template>ISTO &#xC9; SUSTENTABILIDADE-
+            <srai>TASK0SYDCJI</srai>
+        </template>
+  </category>
+  <category>
+    <pattern>TASK0SYDCJI</pattern>
+    <template>VOC&#xCA; J&#xC1; OUVIU FALAR NISSO? (SIM OU N&#xC3;O)-</template>
+  </category>
+  <category>
+    <pattern>SIM</pattern>
+    <that>* VOC&#xCA; J&#xC1; OUVIU FALAR NISSO SIM OU N&#xC3;O</that>
+    <template>ENT&#xC3;O VAMOS COMECAR-
+            <srai>TASK1Q71GG5</srai>
+        </template>
+  </category>
+  <category>
+    <pattern>NAO</pattern>
+    <that>* VOC&#xCA; J&#xC1; OUVIU FALAR NISSO SIM OU N&#xC3;O</that>
+    <template>ENT&#xC3;O AS CORES PARA A COLETA DE RES&#xCD;DUOS S&#xD3;LIDOS &#xC9; VERMELHA-
+            <srai>TASK0ISIZRA</srai>
+        </template>
+  </category>
+  <category>
+    <pattern>TASK1Q71GG5</pattern>
+    <template>QUAL A COR PARA A COLETA DE RES&#xCD;DUOS S&#xD3;LIDOS? (VERMELHO OU AZUL)-</template>
+  </category>
+  <category>
+    <pattern>VERMELHO</pattern>
+    <that>* QUAL A COR PARA A COLETA DE RES&#xCD;DUOS S&#xD3;LIDOS VERMELHO OU AZUL</that>
+    <template>VOC&#xCA; ACERTOU-
+            <srai>TASK042TPWY</srai>
+        </template>
+  </category>
+  <category>
+    <pattern>AZUL</pattern>
+    <that>* QUAL A COR PARA A COLETA DE RES&#xCD;DUOS S&#xD3;LIDOS VERMELHO OU AZUL</that>
+    <template>VOC&#xCA; ERROU-
+            <srai>TASK1YDQ7TE</srai>
+        </template>
+  </category>
+  <category>
+    <pattern>TASK1YDQ7TE</pattern>
+    <template>A COR CORRETA &#xC9; VERMELHO-
+            <srai>TASK1AAR64Z</srai>
+        </template>
+  </category>
+  <category>
+    <pattern>TASK042TPWY</pattern>
+    <template>TERMINOU-</template>
+  </category>
+  <category>
+    <pattern>TASK1AAR64Z</pattern>
+    <template>TERMINOU-</template>
+  </category>
+  <category>
+    <pattern>TASK0ISIZRA</pattern>
+    <template>TERMINOU-</template>
+  </category>
+</aiml>

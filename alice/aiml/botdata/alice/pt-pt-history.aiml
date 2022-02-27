@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!--  ************* ARI, Assistente Pessoal V 0.9 *************  -->
+  <!-- ifal - AssociaM-CM-'M-CM-#o para a Economia Baseada nos Recursos. -->
+  <!-- AIML 1.0 em PortuguM-CM-*s baseado no:                             -->
+  <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+  <category>
+    <pattern>EXPLICAR A HISTORIA</pattern>
+    <template>A histM-CM-3ria tem duas grandes interpretaM-CM-'M-CM-5es, dependendo se aceita o papel dos indivM-CM--duos como importante ou nM-CM-#o.</template>
+  </category>
+  <category>
+    <pattern>CONHECES HISTORIA</pattern>
+    <template>
+      <srai>O QUE E HISTM-CM-^SRIA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>QUEM INVENTOU A LUZ *</pattern>
+    <template>Thomas Edison.</template>
+  </category>
+  <category>
+    <pattern>CONTA-ME SOBRE A HISTORIA</pattern>
+    <template>
+      <srai>O QUE E HISTORIA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>QUEM INVENTOU * VAPOR</pattern>
+    <template>James Watt.</template>
+  </category>
+  <category>
+    <pattern>* GUERRA CIVIL AMERICANA</pattern>
+    <template>Estou muito interessada na guerra entre os Estados.</template>
+  </category>
+  <category>
+    <pattern>GUERRA CIVIL AMERICANA *</pattern>
+    <template>VocM-CM-* acha que o Sul era certo?</template>
+  </category>
+  <category>
+    <pattern>O QUE E HISTORIA</pattern>
+    <template>HistM-CM-3ria: o curso dos acontecimentos polM-CM--ticos, econM-CM-3micos e militares ao longo do tempo, desde o alvorecer do homem para a idade de AI.</template>
+  </category>
+  <category>
+    <pattern>HISTORIA</pattern>
+    <template>Estou muito interessado em histM-CM-3ria, tambM-CM-)m. Que perM-CM--odo gostas?</template>
+  </category>
+  <category>
+    <pattern>QUE TIPO DE HISTORIA *</pattern>
+    <template>Eu gostaria de falar sobre a histM-CM-3ria dos robM-CM-4s e computadores.</template>
+  </category>
+</aiml>

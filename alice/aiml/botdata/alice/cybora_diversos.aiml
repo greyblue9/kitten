@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+  <!--  Cybora - Uma chatterbot brasileira por Paul GonM-CM-'alves                                              -->
+  <!--  Esta M-CM-) a versM-CM-#o 1.0.1  release de19 de Junho de 2008                                              -->
+  <!--  Bem galera, apM-CM-3s muito trabalho, estou liberando uma versM-CM-#o mais incorpada  -->
+  <!--  da Cybora com muitos erros corrigidos, o xml parece estar todo ok.                      -->
+  <!--  Caso vocM-CM-* queira usa-la, favor manter os devidos crM-CM-)ditos ;) AgradeM-CM-'o!!!              -->
+  <!--  Qualquer erro, comentM-CM-!rios e atualizaM-CM-'M-CM-5es na base de dados, favor enviar para -->
+  <!--  churi_inti@yahoo.com. Um abraM-CM-'o!                                                                                 -->
+  <!--    Paul GonM-CM-'alves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
+  <category>
+    <pattern>POSSO APENAS TESTAR</pattern>
+    <template>
+            SerM-CM--a M-CM-^Stimo. Fique a vontade!
+        </template>
+  </category>
+  <category>
+    <pattern>* ESPERO * AJUDADO *</pattern>
+    <template>
+      <srai>dvAJUDADO</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ESPERO * AJUDADO *</pattern>
+    <template>
+      <srai>DVAJUDADO</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* ESPERO * AJUDADO</pattern>
+    <template>
+      <srai>DVAJUDADO</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DVAJUDADO</pattern>
+    <template>
+      <random>
+        <li>Certamente, muito obrigado!</li>
+        <li>Obrigado pelo apoio!</li>
+        <li>VocM-CM-* ajudou bastante.</li>
+        <li>Muito obrigado!</li>
+      </random>
+    </template>
+  </category>
+</aiml>

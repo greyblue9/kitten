@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern>^ MORRER ^</pattern>
+    <template>
+      <srai>CVV</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>^ SUICIDIO ^</pattern>
+    <template>
+      <srai>CVV</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>^ SUICM-CM-DIO ^</pattern>
+    <template>
+      <srai>CVV</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>^ MORTE ^</pattern>
+    <template>
+      <srai>CVV</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CVV</pattern>
+    <template>
+            Entre em contato com o CVV (Centro de valorizaM-CM-'M-CM-#o da vida). O CVV conta com 3 mil voluntM-CM-!rios que atendem por chat,
+        	telefone, ou pessoalmente em qualquer hora do dia ou da noite atravM-CM-)s do nM-CM-:mero 188.
+        </template>
+  </category>
+</aiml>

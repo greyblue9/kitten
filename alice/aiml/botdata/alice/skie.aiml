@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0.1">
+  <category>
+    <pattern>
+     o que M-i skie
+    </pattern>
+    <template>
+      skie M-i um grupo de empreendedores web que estM-co prontos para criar e hospedar sites!
+    </template>
+  </category>
+</aiml>

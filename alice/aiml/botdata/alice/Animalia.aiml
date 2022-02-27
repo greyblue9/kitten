@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0.1">
+  <category>
+    <pattern>
+Animalia	
+	</pattern>
+    <template>
+O reino Animalia, Reino Animal ou Reino Metazoa M-i composto por seres vivos pluricelulares, heterotrM-sficos, cujas cM-ilulas formam tecidos biolM-sgicos, com capacidade de responder ao ambiente que os envolve ou, por outras palavras, pelos animais.
+A maioria dos animais possui um plano corporal que determina-se M-` medida que tornam-se maduros e, exceto em animais que metamorfoseiam, esse plano corporal M-i estabelecido desde cedo em sua ontogenia quando embriM-ues.
+O estudo cientM-mfico dos animais M-i chamado zoologia, que tradicionalmente estudava, nM-co sM-s os seres vivos com as caracterM-msticas descritas acima, mas tambM-im os protozoM-arios. Como resultado de estudos filogenM-iticos, consideram-se os Protista como um grupo separado dos animais.
+Coloquialmente, o termo "animal" M-i frequentemente utilizado para referir-se a todos os animais diferentes dos humanos e raramente para referir-se a animais nM-co classificados como MetazoM-arios. A palavra "animal" M-i derivada do latim anima, no sentido de fM-tlego vital, e entrou na lM-mngua portuguesa atravM-is da palavra animalis. Animalia M-i seu plural.
+	</template>
+  </category>
+</aiml>
